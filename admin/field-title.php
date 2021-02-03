@@ -14,7 +14,7 @@ abstract class P2P_Field_Title implements P2P_Field {
 
 	function render( $p2p_id, $item ) {
 		$data = array_merge( $this->get_data( $item ), array(
-			'title' => $item->title,
+			'title' => apply_filters( 'p2p_field_title_item', $item->title, $item, $p2p_id ),
 			'url'   => $item->get_editlink(),
 		) );
 
