@@ -1,9 +1,8 @@
 {
     "name": "hokoo/wp-posts-to-posts",
-    "type": "wordpress-plugin",
+    "type": "wordpress-muplugin",
     "license": "GPL-2.0+",
     "require": {
-        "composer/installers": "~1.0",
         "mustache/mustache": "~2.6"
     },
     "repositories": [
