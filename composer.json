@@ -1,5 +1,5 @@
 {
-    "name": "hokoo/posts-to-posts",
+    "name": "hokoo/wp-posts-to-posts",
     "type": "wordpress-plugin",
     "license": "GPL-2.0+",
     "require": {
